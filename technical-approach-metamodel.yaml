@@ -1,0 +1,27 @@
+id: https://github.com/capsulecorplab/model-based-technical-approach/tree/main/technical-approach-metamodel.yaml
+name: technical-approach-metamodel
+title: Technical Approach Metamodel - A vocabulary for modeling a technical approach
+prefixes:
+  linkml: https://w3id.org/linkml/
+imports:
+  - linkml:types
+default_range: string
+
+classes:
+  TechicalApproach:
+    tree_root: true
+    slots:
+      - purpose
+      - desired_outcomes
+      - assumptions
+      - technical_guidelines
+
+slots:
+  purpose:
+  desired_outcomes:
+    multivalued: true
+  assumptions:
+    multivalued: true
+  technical_guidelines:
+    multivalued: true
+    required: true
