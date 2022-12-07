@@ -1,0 +1,12 @@
+purpose: To provide a means for describing a technical approach
+desired_outcomes:
+  - Define a human and machine readable schema for describing a technical approach
+assumptions:
+  - A technical approach can consist of zero or a singular purpose
+  - A technical approach can consist of zero or more desired outcomes
+  - A technical approach can consist of zero or more assumptions
+  - A technical approach can consist of one or more technical guidelines
+technical_guidelines:
+  - A technical approach should consist of a purpose, desired outcomes, assumptions, and technical guidelines
+  - A technical approach should be able to guide an implementation
+  - A technical approuch should be implementation-agnostic
